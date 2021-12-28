@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.codepenio {
+  color: white;
+}
+.header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  position: relative;
+}
+.header-button {
+  position: absolute;
+  right: 20px;
+}
+
+.header-button button {
+  background-color: #1b2b34;
+  padding: 20px;
+  color: white;
+}
+
+.code {
+  display: flex;
+  background-color: #1b2b34;
+}
+.codepenEditior {
+  width: 400px;
+  height: 400px;
+}
+.codepenEditior {
+  margin: 50px;
+}
+.codepenEditior .codepenEditior-code .codepenEditior-input {
+  width: 100%;
+  height: 300px;
+  background-color: #1b2b34;
+  color: white;
+}
+
+.console {
+  display: flex;
+}
+.console > iframe {
+  width: 100%;
+}
